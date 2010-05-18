@@ -1,0 +1,5 @@
+. script/test-helpers
+
+mkdir work/clojure-refactoring-lib
+testLatestWithLein work/clojure-refactoring
+
