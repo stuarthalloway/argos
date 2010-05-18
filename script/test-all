@@ -6,5 +6,6 @@ script/test-labrepl
 script/test-moustache
 script/test-clojure-refactoring
 script/test-congomongo
+script/test-compojure
 
 
