@@ -1,0 +1,9 @@
+. script/test-helpers
+
+pushd work/clj-record
+git pull
+rm -vf lib/clojure.jar
+useLocalClojure
+ant test
+popd
+

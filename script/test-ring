@@ -1,0 +1,11 @@
+. script/test-helpers
+
+pushd work/ring
+
+testLatestWithLein ring-core
+testLatestWithLein ring-devel
+testLatestWithLein ring-httpcore-adapter
+testLatestWithLein ring-jetty-adapter
+testLatestWithLein ring-servlet
+
+popd

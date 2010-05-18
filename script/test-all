@@ -1,0 +1,6 @@
+script/test-ring
+script/test-swank-clojure
+script/test-clj-record
+
+
+

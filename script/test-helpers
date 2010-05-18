@@ -1,0 +1,17 @@
+function useLocalClojure() {
+  rm -vf lib/clojure-1*
+  rm -vf lib/clojure-contrib*  
+  ln $CLOJURE_HOME/clojure.jar lib/clojure-1.2.0-master-local.jar
+  ln $CLOJURE_HOME/../clojure-contrib/target/clojure-contrib-1.2.0-SNAPSHOT.jar lib/clojure-contrib-1.2.0-local.jar
+}
+
+function testLatestWithLein() {
+  pushd $@
+  git pull
+  lein clean
+  lein deps
+  useLocalClojure
+  lein test 
+  popd
+}
+
