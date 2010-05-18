@@ -3,5 +3,9 @@ pushd work
 git clone git://github.com/mmcgrana/ring.git
 git clone git://github.com/duelinmarkers/clj-record.git
 git clone git://github.com/technomancy/swank-clojure.git
+git clone git://github.com/somnium/congomongo.git
+git clone git://github.com/technomancy/leiningen.git
+git clone git://github.com/relevance/labrepl.git
+git clone git://github.com/cgrand/moustache.git
 
 popd 

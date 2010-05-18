@@ -1,6 +1,9 @@
 script/test-ring
 script/test-swank-clojure
 script/test-clj-record
-
+script/test-leiningen
+script/test-labrepl
+script/test-moustache
+script/test-congomongo
 
 
