@@ -4,8 +4,18 @@ script/test-clj-record
 script/test-leiningen
 script/test-labrepl
 script/test-moustache
-script/test-clojure-refactoring
 script/test-congomongo
 script/test-compojure
+script/test-clj-mql
+script/test-incanter
+
+# failing dependency on old clojure version
+# script/test-clojure-refactoring
+
+# failing dependency on oauth
+# script/test-clojure-twitter
+
+# redis-server must be running
+# script/test-redis-server
 
 

@@ -1,0 +1,49 @@
+. script/test-helpers
+
+pushd ../incanter
+git pull
+
+cd ./modules/incanter-core
+lein clean
+lein deps
+lein compile-java
+useLocalClojure
+
+cd ../incanter-io
+lein clean
+lein deps
+useLocalClojure
+
+cd ../incanter-charts
+lein clean
+lein deps
+useLocalClojure
+
+cd ../incanter-processing
+lein clean
+lein deps
+useLocalClojure
+
+cd ../incanter-mongodb
+lein clean
+lein deps
+useLocalClojure
+
+cd ../incanter-pdf
+lein clean
+lein deps
+useLocalClojure
+
+cd ../incanter-latex
+lein clean
+lein deps
+useLocalClojure
+
+cd ../../
+lein clean
+lein deps
+useLocalClojure
+
+script/test
+
+popd
