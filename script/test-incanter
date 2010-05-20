@@ -1,6 +1,6 @@
 . script/test-helpers
 
-pushd ../incanter
+pushd work/incanter
 git pull
 
 cd ./modules/incanter-core

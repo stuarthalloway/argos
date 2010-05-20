@@ -23,4 +23,6 @@ Use:
 (1) Make sure your Clojure and Contrib are built.
 
 (2) script/test-* tests a library, script/test-all tests them all.
-
+    Prefix with SKIP_UPDATES to skip the git/maven/updates and test 
+    only what is already installed locally.
+  

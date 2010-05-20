@@ -4,10 +4,12 @@ script/test-clj-record
 script/test-leiningen
 script/test-labrepl
 script/test-moustache
-script/test-congomongo
 script/test-compojure
 script/test-clj-mql
 script/test-incanter
+
+# way out of date
+# script/test-congomongo
 
 # failing dependency on old clojure version
 # script/test-clojure-refactoring

@@ -1,4 +1,4 @@
 . script/test-helpers
 
-testLatestWithLein ../enlive
+testLatestWithLein work/enlive
 
